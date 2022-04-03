@@ -61,10 +61,15 @@ p {
     align-items: center;
 }
 
+
 .header {
     border-bottom: 1px solid  var(--line-color);
     padding-top: 24px;
   padding-bottom: 25px
+}
+
+.logo-color{
+    color: var(--second-color);
 }
 
 .navigation {
