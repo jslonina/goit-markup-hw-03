@@ -58,7 +58,7 @@ p {
 /* -----------------header---------------*/
 .header .container {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -66,7 +66,8 @@ p {
 .header {
     border-bottom: 1px solid  var(--line-color);
     padding-top: 24px;
-  padding-bottom: 25px
+    padding-bottom: 25px;
+   
 }
 
 .logo-color{
@@ -75,18 +76,18 @@ p {
 
 .navigation {
     display:flex;
-    align-items: center;
+    align-items:center;
 }
 
-.logo .logo-link-header {
-    margin-right:93px;
-}
 
 .navigation-list{
     display: flex;
+    margin-left:93px;
 }
 
-.navigation-list .navigation-list-item:not(:last-child) {
+
+
+.navigation-list-item:not(:last-child) {
     margin-right: 46px;
 }
 
@@ -101,6 +102,7 @@ p {
 .logo {
     font-family: var(--second-font);
 }
+
 
 .logo-link-header,
 .navigation-link {
@@ -121,7 +123,7 @@ p {
 }
 
 .title .container {
-    max-width: 696px;
+
   text-align: center;
   margin-right: auto;
   margin-left: auto; 
